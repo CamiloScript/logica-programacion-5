@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    height: 100vh; /* Esto asegura que el body ocupe toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    margin: 0;
+}
+
+.instrucciones {
+    color: orange;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    font-size: 16px; /* Tamaño de texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ /* Se añade un hover al boton para que cambie de color cuando el cursor pase por encima.*/
+button:hover {
+    background-color: darkorange;
+}
